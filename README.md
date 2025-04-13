@@ -38,8 +38,8 @@ strip rt.out
 Most implementations achieved comparable performance, averaging around **292 µs** under the **FIFO** scheduler.
 By contrast, the **Python async** implementation was significantly slower, with a mean best latency of approximately **1181 µs**.
 
-Performance data per implementation is shown below.
-Each cell contains min / mean / max latency values. Lower values (closer to **250 µs**) are better.
+Performance data per implementation is shown below in µs.
+Each cell contains `min / mean / max` latency values. Lower values (closer to **250 µs**) are better.
 
 | **Policy**  | **Python** | **Python Async** | **Python ABS**                          | **C** |
 |-------------|------------|------------------|-----------------------------------------|-------|
