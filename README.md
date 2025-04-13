@@ -15,6 +15,8 @@ sudo chrt --fifo 99 <command>
 
 ## Code differences
 
+Each implementation is set to sleep 250 µs using the following functions:
+
 - Python uses `time.sleep` 
 - Python async uses `asyncio.sleep`
 - Python abs uses `abs_sleep.abs_nanosleep`
